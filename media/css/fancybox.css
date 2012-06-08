@@ -1,0 +1,36 @@
+/* CSS Document */
+
+body#fancy {
+	min-width:0px;
+    width:550px;
+    min-height:100px;
+}
+
+div#up {
+    margin-bottom:20px;
+    padding-bottom:5px;
+    width:100%;
+    text-align:center;
+}
+
+#fancybox-container{
+	padding:10px 30px;
+}
+
+div.new_badge {
+    margin:0 auto;
+    display: inline-block;
+    text-align: center;
+    line-height:30px;
+    padding: 10px;
+    width: 220px;
+}
+
+span.badge_title {
+    font-size:150%;
+    font-weight:bold;
+}
+
+span.badge_desc {
+    font-size:120%;
+}

@@ -1,0 +1,49 @@
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Code Igniter #
+######################
+application/config/config.php
+application/config/database.php
+*/config/development
+*/logs/log-*.php
+*/logs/!index.html
+*/cache/*
+*/cache/!index.html
+
+# Project specific #
+######################
+media/psd
+media/images/avatars/*
+media/images/submissions/*
+!media/images/avatars/tmp/.htaccess
+!media/images/avatars/default.png
+!media/images/avatars/default_big.png
+!media/images/submissions/tmp/.htaccess

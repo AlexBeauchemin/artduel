@@ -1,0 +1,178 @@
+@charset "iso-8859-1";
+/* CSS Document */
+
+body{
+	/*background-color:#3f6eba;
+	background-image:url(../images/design/bg.jpg);*/
+	color: #647891;
+	background: #eaeef3 url(../images/design/background.jpg) top center repeat;
+	text-align:center;
+
+}
+
+h1{
+	text-shadow: 0px -2px 1px #eeeeee,
+                  0px 1px 2px #ffffff;
+	color:#647891;
+	font-size:25px;
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+	line-height:70px;
+	padding-bottom:40px;
+}
+
+h2{
+	text-shadow: 0px -1px 0px #555555,
+                  0px 1px 0px #ffffff;
+	color:#647891;
+	font-size:30px;
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+	padding-top:100px;
+}
+
+input{
+	border:1px solid #647891;
+	padding:5px;
+	margin:0px 5px;
+}
+
+#notifySubmit{
+	cursor:pointer;
+	color:#647891;
+	font-weight:bold;
+}
+
+label{
+	font-size:120%;
+	font-weight:bold;	
+}
+
+
+/* -------------------- FONT FACE -------------------------- */
+
+.font-face{
+	
+}
+
+
+
+@font-face {
+    font-family: 'KomikaTextRegular';
+    src: url('../font-face/KOMTXT__-webfont.eot');
+    src: url('../font-face/KOMTXT__-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font-face/KOMTXT__-webfont.woff') format('woff'),
+         url('../font-face/KOMTXT__-webfont.ttf') format('truetype'),
+         url('../font-face/KOMTXT__-webfont.svg#KomikaTextRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'KomikaTextItalic';
+    src: url('../font-face/KOMTXTI_-webfont.eot');
+    src: url('../font-face/KOMTXTI_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font-face/KOMTXTI_-webfont.woff') format('woff'),
+         url('../font-face/KOMTXTI_-webfont.ttf') format('truetype'),
+         url('../font-face/KOMTXTI_-webfont.svg#KomikaTextItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'KomikaTextBold';
+    src: url('../font-face/KOMTXTB_-webfont.eot');
+    src: url('../font-face/KOMTXTB_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font-face/KOMTXTB_-webfont.woff') format('woff'),
+         url('../font-face/KOMTXTB_-webfont.ttf') format('truetype'),
+         url('../font-face/KOMTXTB_-webfont.svg#KomikaTextBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'KomikaTextBoldItalic';
+    src: url('../font-face/KOMTXTBI-webfont.eot');
+    src: url('../font-face/KOMTXTBI-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font-face/KOMTXTBI-webfont.woff') format('woff'),
+         url('../font-face/KOMTXTBI-webfont.ttf') format('truetype'),
+         url('../font-face/KOMTXTBI-webfont.svg#KomikaTextBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'KomikaTextKapsRegular';
+    src: url('../font-face/KOMTXTK_-webfont.eot');
+    src: url('../font-face/KOMTXTK_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font-face/KOMTXTK_-webfont.woff') format('woff'),
+         url('../font-face/KOMTXTK_-webfont.ttf') format('truetype'),
+         url('../font-face/KOMTXTK_-webfont.svg#KomikaTextKapsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'KomikaTextKapsItalic';
+    src: url('../font-face/KOMTXTKI-webfont.eot');
+    src: url('../font-face/KOMTXTKI-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font-face/KOMTXTKI-webfont.woff') format('woff'),
+         url('../font-face/KOMTXTKI-webfont.ttf') format('truetype'),
+         url('../font-face/KOMTXTKI-webfont.svg#KomikaTextKapsItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'KomikaTextKapsBold';
+    src: url('../font-face/KOMTXTKB-webfont.eot');
+    src: url('../font-face/KOMTXTKB-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font-face/KOMTXTKB-webfont.woff') format('woff'),
+         url('../font-face/KOMTXTKB-webfont.ttf') format('truetype'),
+         url('../font-face/KOMTXTKB-webfont.svg#KomikaTextKapsBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'KomikaTextKapsBoldItalic';
+    src: url('../font-face/KOMTXKBI-webfont.eot');
+    src: url('../font-face/KOMTXKBI-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font-face/KOMTXKBI-webfont.woff') format('woff'),
+         url('../font-face/KOMTXKBI-webfont.ttf') format('truetype'),
+         url('../font-face/KOMTXKBI-webfont.svg#KomikaTextKapsBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'KomikaTextTightRegular';
+    src: url('../font-face/KOMTXTT_-webfont.eot');
+    src: url('../font-face/KOMTXTT_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font-face/KOMTXTT_-webfont.woff') format('woff'),
+         url('../font-face/KOMTXTT_-webfont.ttf') format('truetype'),
+         url('../font-face/KOMTXTT_-webfont.svg#KomikaTextTightRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'KomikaTextTightItalic';
+    src: url('../font-face/KOMTXTTI-webfont.eot');
+    src: url('../font-face/KOMTXTTI-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font-face/KOMTXTTI-webfont.woff') format('woff'),
+         url('../font-face/KOMTXTTI-webfont.ttf') format('truetype'),
+         url('../font-face/KOMTXTTI-webfont.svg#KomikaTextTightItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
